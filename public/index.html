@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Astreoid — your day, in orbit</title>
+  <meta name="description" content="Astreoid is a 3D personal assistant: tasks, study planning, projects and email reminders.">
+  <meta name="theme-color" content="#05070f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%237c6cff' d='M16 2l9 3 5 9-3 10-9 6-9-4-5-9 4-10z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/tailwind.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <script>
+    try { var t = localStorage.getItem('astreoid-theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'day' : 'night'); document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script type="importmap">{ "imports": { "three": "/vendor/three/build/three.module.js", "three/addons/": "/vendor/three/examples/jsm/" } }</script>
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div id="app"></div>
+  <div id="loader" class="loader-overlay" role="status" aria-live="polite">
+    <div>
+      <div class="hourglassBackground"><div class="hourglassContainer">
+        <div class="hourglassCurves"></div><div class="hourglassCapTop"></div><div class="hourglassGlassTop"></div><div class="hourglassSand"></div>
+        <div class="hourglassSandStream"></div><div class="hourglassCapBottom"></div><div class="hourglassGlass"></div>
+      </div></div>
+      <p>Entering orbit…</p>
+    </div>
+  </div>
+  <div id="toasts" aria-live="polite"></div>
+  <noscript><p style="position:relative;z-index:2;padding:2rem;color:#fff">Astreoid needs JavaScript to run.</p></noscript>
+  <script src="/shared/tz.js"></script>
+  <script src="/shared/priority.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

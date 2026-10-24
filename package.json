@@ -1,0 +1,25 @@
+{
+  "name": "astreoid",
+  "version": "1.0.0",
+  "description": "Astreoid — a 3D personal assistant for tasks, study and projects",
+  "main": "server/index.js",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i public/css/tailwind.src.css -o public/css/tailwind.css --minify",
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node test/api.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^10.2.1",
+    "pg": "^8.23.1",
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
