@@ -160,6 +160,14 @@ Screenshot	What it shows
 	Firebase Console's web app registration / setup flow
 	Firebase setup instructions and app configuration flow
 	Firebase project settings navigation
+<img width="512" height="276" alt="image" src="https://github.com/user-attachments/assets/96d8b254-508f-4b88-a871-793d41f339fa" />
+<img width="512" height="275" alt="image" src="https://github.com/user-attachments/assets/d8d4e5c9-e17a-4de7-bcf6-f8deaee07827" />
+<img width="512" height="272" alt="image" src="https://github.com/user-attachments/assets/ce09be1c-69d9-4458-8447-2ded2e6e526c" />
+<img width="512" height="276" alt="image" src="https://github.com/user-attachments/assets/26e475da-6674-40c2-a6dd-556787821e1a" />
+<img width="512" height="275" alt="image" src="https://github.com/user-attachments/assets/8b7f1653-b463-4a7e-817c-e7810acb1e42" />
+<img width="512" height="272" alt="image" src="https://github.com/user-attachments/assets/0ec3b71e-2fd4-4618-affc-67220db69612" />
+<img width="512" height="273" alt="image" src="https://github.com/user-attachments/assets/e510ba45-529f-4911-ba18-ffcb387988f5" />
+
 
 
 Homepage screenshot: the available uploaded screenshots did not include a capture of the rendered Astreoid landing page or authentication modal, so no mock screenshot is presented as if it were real. Once the app is running, capture the browser view and add it to assets/astreoid-homepage.png, then include it here:
