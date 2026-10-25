@@ -4,7 +4,6 @@
 
 **A 3D personal assistant for tasks, study, projects and habits — your open tasks orbit you as asteroids, and reminders land in your Gmail.**
 
-<img src="docs/screenshots/02-dashboard-night.webp" alt="Astreoid dashboard (night mode)" width="900">
 
 [Features](#-features) · [Tour](#-tour-click-to-expand) · [How it works](#-how-it-works) · [Quick start](#-quick-start) · [Deploy free](#-deploy-free-no-computer-needed) · [Config](#-configuration) · [API](#-api) · [Security](#-security) · [Troubleshooting](#-troubleshooting)
 
