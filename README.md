@@ -4,10 +4,6 @@
 
 **A 3D personal assistant for tasks, study, projects and habits — your open tasks orbit you as asteroids, and reminders land in your Gmail.**
 
-<img width="512" height="276" alt="image" src="https://github.com/user-attachments/assets/b7c04b9e-70e4-42e5-90b1-2f1845f30b5e" />
-<img width="1600" height="1289" alt="image" src="https://github.com/user-attachments/assets/678c3ca8-f91a-4b02-bfeb-4de3efc9f6f6" />
-
-
 <img src="docs/screenshots/02-dashboard-night.webp" alt="Astreoid dashboard (night mode)" width="900">
 
 [Features](#-features) · [Tour](#-tour-click-to-expand) · [How it works](#-how-it-works) · [Quick start](#-quick-start) · [Deploy free](#-deploy-free-no-computer-needed) · [Config](#-configuration) · [API](#-api) · [Security](#-security) · [Troubleshooting](#-troubleshooting)
@@ -314,6 +310,14 @@ All routes need the session cookie, except register, login and `/healthz`.
 
 ---
 
+##Screenshots
+
+
+<img width="512" height="276" alt="image" src="https://github.com/user-attachments/assets/b7c04b9e-70e4-42e5-90b1-2f1845f30b5e" />
+<img width="1600" height="1289" alt="image" src="https://github.com/user-attachments/assets/678c3ca8-f91a-4b02-bfeb-4de3efc9f6f6" />
+
+---
+
 ## 🔒 Security
 
 - bcrypt password hashes, and an httpOnly, SameSite=Lax session cookie (`Secure` in production).
@@ -362,6 +366,3 @@ It belongs in `.env` (or Render's Environment tab), not in the terminal.
 
 ---
 
-## 🙏 Credits
-
-UI components are adapted from [Uiverse.io](https://uiverse.io) and credited at the top of `public/css/components.css`. 3D by [Three.js](https://threejs.org). Built by [RaghuramReddy205](https://github.com/RaghuramReddy205).
